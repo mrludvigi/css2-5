@@ -1,9 +1,52 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/inika');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    height: 72px;
+    padding: 12px 32px;
+    background: #FBF9FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 131px;
+}
+.header{
+    width: 1856px;
+    justify-content: space-between;
+}
+.headers-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-items{
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact-us{
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+ }
+ .nav-items a{
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
 .container-purple{
     margin: 0 auto;
     max-width: 1348px;
@@ -90,6 +133,7 @@
     font-weight: 600;
     font-size: var(--Font-size-text-md, 16px);
     margin-bottom: 12px;
+    cursor: pointer;
 }
 .button-white{
     font-family: 'Inter', sans-serif;
@@ -102,6 +146,7 @@
     font-weight: 600;
     line-height: var(--Line-height-text-md, 24px); /* 150% */
     background: #FFF;
+    cursor: pointer;
 }
 .check-items{
     margin-top: 32px;
@@ -298,4 +343,89 @@
     max-width: 768px;
     padding: 32px;
     border-radius: var(--spacing-xl, 16px);
+}
+.container-reviews{
+    border-radius: 24px;
+    background: #FFF;
+    padding: 32px 0px;
+    margin-top: 64px;
+}
+.reviews-header h2{
+    color: #181D27;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-display-md, 44px); /* 110% */
+    letter-spacing: -0.8px;
+}
+.reviews-header p{
+    margin-top: 20px;
+    color: #535862;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-xl, 30px); /* 125% */
+    margin-bottom: 64px;
+}
+.left-reviews{
+    display: inline-block;
+    height: 286px;
+    min-width: 480px;
+    min-height: 286px;
+    padding: var(--spacing-4xl, 32px);
+    border-radius: var(--radius-xl, 12px);
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+.reviews-main{
+    display: inline-block;
+    max-width: 535px;
+    width: 100%;
+    margin: 20px;
+}
+.reviews-foot{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.avatar-img{
+    vertical-align: middle;
+}
+.avatar-bar{
+    margin-top: 60px;
+    text-align: left;
+}
+.head-p{
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+    color: #181D27;
+    font-family: 'Inika', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+.avatar-name{
+    display: inline-block;
+    color: #181D27;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */ 
+    vertical-align: middle;
+}
+.verified{
+    vertical-align: middle;
+}
+.company-logo{
+    margin-left: 80px;
+}
+.vertical{
+    vertical-align: middle;
 }
