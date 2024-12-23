@@ -24,6 +24,8 @@ header{
 .nav-items{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 430px;
+    margin-right: 430px;
 }
 .contact-us{
     vertical-align: middle;
@@ -428,4 +430,7 @@ header{
 }
 .vertical{
     vertical-align: middle;
+}
+.distance-head{
+    margin-right: 20px;
 }
